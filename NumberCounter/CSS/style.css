@@ -1,0 +1,42 @@
+body {
+    background-color: #fcfbd7;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#myCounter{
+    display: block;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: "Saira", sans-serif;
+    color: rgb(227, 117, 28);
+}
+
+#counterTitle{
+    display: block;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Poetsen One", sans-serif;
+    color: rgb(227, 117, 28);
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+.counterButton{
+    padding: 10px 20px;
+    color: rebeccapurple;
+    font-family: "Saira", sans-serif;
+    font-size: 1.5em;
+    border: 2px solid black;
+    background-color: rgb(136, 209, 136);
+    margin: 50px 10px 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.counterButton:hover{
+    background-color: rgb(8, 150, 8);
+}
